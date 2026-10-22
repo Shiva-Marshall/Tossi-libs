@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // FlowStatus Describes whether the IP flow(s) are enabled or disabled.

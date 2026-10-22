@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AccessTypeRm Indicates wether the access is via 3GPP or via non-3GPP but with the OpenAPI 'nullable: true' property.\"

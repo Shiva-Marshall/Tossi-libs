@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // PduSessionStatus Represents the status of the PDU Session. Possible values are: - ACTIVATED: PDU Session status is activated. - DEACTIVATED: PDU Session status is deactivated.

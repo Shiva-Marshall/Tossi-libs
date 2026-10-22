@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AvailableRanVisibleQoeMetric The enumeration AvailableRanVisibleQoeMetric indicates different available RAN-visible QoE metrics to the gNB. It shall comply with the provisions defined in TS 29.571, table 5.6.3.22-1.

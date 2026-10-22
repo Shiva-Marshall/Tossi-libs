@@ -3,7 +3,7 @@
 
 package Nnrf_NFDiscovery
 
-import "github.com/omec-project/openapi/v2/models"
+import "github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 
 func (r ApiSearchNFInstancesRequest) GetServiceNames() *[]models.ServiceName {
 	return r.serviceNames

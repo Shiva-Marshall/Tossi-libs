@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ValueExpression Represents the average or peak value of the resource usage for the network performance type. Possible values are:   - AVERAGE: Resource usage information in average value.   - PEAK: Resource usage information in peak value.

@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 type DefaultAPI interface {

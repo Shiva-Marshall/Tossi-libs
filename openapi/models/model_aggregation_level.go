@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AggregationLevel Represents the aggregation level for processing instructions. Possible values are: - UE: Indicates that the summarized reports shall be provided per UE. - AOI: Indicates that the summarized reports shall be provided per Area of Interest.

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ReportingInd Indicates whether the UE is allowed to generate and send the event report inside or outside the event report allowed(expected) area

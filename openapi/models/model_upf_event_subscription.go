@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // checks if the UpfEventSubscription type satisfies the MappedNullable interface at compile time

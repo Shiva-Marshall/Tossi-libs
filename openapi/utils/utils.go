@@ -6,8 +6,8 @@ package utils
 import (
 	"net/http"
 
-	openapi "github.com/omec-project/openapi/v2"
-	"github.com/omec-project/openapi/v2/models"
+	openapi "github.com/Shiva-Marshall/Tossi-libs/openapi"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 // Problem detail cause constants

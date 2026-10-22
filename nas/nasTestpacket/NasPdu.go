@@ -10,11 +10,11 @@ import (
 	"bytes"
 	"encoding/base64"
 
-	"github.com/omec-project/nas/v2"
-	"github.com/omec-project/nas/v2/logger"
-	"github.com/omec-project/nas/v2/nasConvert"
-	"github.com/omec-project/nas/v2/nasMessage"
-	"github.com/omec-project/nas/v2/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/nas"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasConvert"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasMessage"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
 )
 
 const (

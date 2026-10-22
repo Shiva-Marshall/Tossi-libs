@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/omec-project/nas/v2/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
 )
 
 type DLNASTransport struct {

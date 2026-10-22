@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // CommunicationIndicator Represents the type of the communication. Possible values are: - PERIODICALLY: Identifies the UE communicates periodically - ON_DEMAND: Identifies the UE communicates on demand

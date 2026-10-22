@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // LocInfoGranularity Represents the preferred granularity of location information. Possible values are:   - TA_LEVEL: Indicates location granularity of TA level.   - CELL_LEVEL: Indicates location granularity of Cell level.   - LON_AND_LAT_LEVEL: Indicates location granularity of longitude and latitude level.

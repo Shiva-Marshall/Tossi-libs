@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/omec-project/nas/v2"
-	"github.com/omec-project/nas/v2/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/nas"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
 )
 
 func TestNasTypeNewPDUSESSIONESTABLISHMENTREQUESTMessageIdentity(t *testing.T) {

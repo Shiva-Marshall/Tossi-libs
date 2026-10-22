@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // HoState Handover state. Possible values are - NONE - PREPARING - PREPARED - COMPLETED - CANCELLED

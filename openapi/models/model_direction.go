@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // Direction Possible values are:   - NORTH: North direction.   - SOUTH: South direction.   - EAST: EAST direction.   - WEST: WEST direction.   - NORTHWEST: Northwest direction.   - NORTHEAST: Northeast direction.   - SOUTHWEST: Southwest direction.   - SOUTHEAST: Southeast direction.

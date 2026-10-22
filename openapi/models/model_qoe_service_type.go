@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // QoeServiceType The enumeration QoeServiceType indicates the kind of service that shall be recorded for QMC. It shall comply with the provisions defined in TS 29.571, table 5.6.3.21-1.

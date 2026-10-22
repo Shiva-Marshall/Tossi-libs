@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // PendingUpdateInfo Pending Update Information. Possible values are   - UE_LOCATION   - TIMEZONE   - ACCESS_TYPE   - RAT_TYPE   - AMF_ID

@@ -31,8 +31,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/omec-project/openapi/v2"
-	"github.com/omec-project/openapi/v2/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/logger"
 	"golang.org/x/oauth2"
 )
 

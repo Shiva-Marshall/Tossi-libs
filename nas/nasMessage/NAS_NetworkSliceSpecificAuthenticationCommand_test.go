@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/omec-project/nas/v2/nasMessage"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasMessage"
 )
 
 // TestNasTypeNetworkSliceSpecificAuthenticationCommandOverlengthSNSSAI guards

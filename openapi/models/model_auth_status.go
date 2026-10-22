@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AuthStatus Possible values are: - \"EAP_SUCCESS\": The NSSAA status is EAP-Success. - \"EAP_FAILURE\": The NSSAA status is EAP-Failure. - \"PENDING\": The NSSAA status is Pending.

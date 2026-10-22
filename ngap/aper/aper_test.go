@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/omec-project/ngap/v2/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/logger"
 )
 
 var perTestTraceLevel = 2

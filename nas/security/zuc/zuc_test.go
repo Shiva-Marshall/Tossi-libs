@@ -12,7 +12,7 @@ package zuc_test
 import (
 	"testing"
 
-	"github.com/omec-project/nas/v2/security/zuc"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/security/zuc"
 )
 
 func TestZuc(t *testing.T) {

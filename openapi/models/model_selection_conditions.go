@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SelectionConditions - It contains the set of conditions that shall be evaluated to determine whether a consumer shall select a given producer. The producer shall only be selected if the evaluation of the conditions is <true>. The set of conditions can be represented by a single ConditionItem or by a ConditionGroup, where the latter contains a (recursive) list of conditions joined by the \"and\" or \"or\" logical relationships.

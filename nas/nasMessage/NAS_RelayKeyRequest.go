@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/omec-project/nas/v2/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
 )
 
 // RelayKeyRequest 8.2.34

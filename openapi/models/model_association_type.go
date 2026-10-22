@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AssociationType Indicates association type to be included to identify whether it is IMSI-IMEI or IMSI-IMEISV.

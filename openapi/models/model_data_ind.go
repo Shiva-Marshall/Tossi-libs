@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // DataInd Indicates the type of data. Possible values are - PFD: PFD data. - IPTV: IPTV configuration data. - BDT: BDT data. - SVC_PARAM: Service parameter data. - AM: AM influence data. - DNAI_EAS: DNAI EAS mapping data. - REQ_QOS: AF Requested QoS data for a UE or group of UE(s) not identified by UE address(es). - ECS: ECS Address data.

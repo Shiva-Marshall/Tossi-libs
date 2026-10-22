@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // QosFlowAccessType Access type associated with a QoS Flow. Possible values are   - 3GPP   - NON_3GPP   - 3GPP_AND_NON_3GPP

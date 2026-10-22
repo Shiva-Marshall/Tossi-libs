@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ProtectionResult Protection Result of the security policy indicated as \"preferred\". Possible values are   - PERFORMED   - NOT_PERFORMED

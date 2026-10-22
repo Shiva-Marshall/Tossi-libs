@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ProximityCriterion Possible values are:   - VELOCITY: Velocity.   - AVG_SPD: Average speed.   - ORIENTATION: Orientation.   - TRAJECTORY: Mobility trajectory.

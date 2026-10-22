@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SubscriptionAction Indicates the required action by the event producer NF on the event subscription if an exception occurs while the event is muted.

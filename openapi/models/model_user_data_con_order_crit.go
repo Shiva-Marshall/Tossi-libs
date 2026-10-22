@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // UserDataConOrderCrit Represents the cause for requesting to terminate an analytics subscription. Possible values are:   - APPLICABLE_TIME_WINDOW: The ordering criterion is the Applicable Time Window.   - NETWORK_STATUS_INDICATION: The ordering criterion is the network status indication.

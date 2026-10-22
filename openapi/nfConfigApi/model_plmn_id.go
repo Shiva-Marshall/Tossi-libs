@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"maps"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // checks if the PlmnId type satisfies the MappedNullable interface at compile time

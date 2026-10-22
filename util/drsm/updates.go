@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/omec-project/util/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/util/logger"
 	"go.mongodb.org/mongo-driver/v2/bson"
 	"go.mongodb.org/mongo-driver/v2/mongo"
 )

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // CpFailureCode Represents the failure reason of the CP parameter provisioning. Possible values are - MALFUNCTION: This value indicates that something functions wrongly in CP parameter   provisioning or the CP parameter provisioning does not function at all. - SET_ID_DUPLICATED: The received CP set identifier(s) are already provisioned. - OTHER_REASON: Other reason unspecified. - CONFIDENCE_LEVEL_NOT_SUFFICIENT: The received confidence level for the expected UE   parameter is not sufficient. - ACCURACY_LEVEL_NOT_SUFFICIENT: The received accuracy level for the expected UE parameter   is not sufficient.

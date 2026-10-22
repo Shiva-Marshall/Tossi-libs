@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SharedDataTreatmentInstruction Indicates the presence of this attribute in the individual data. Otherwise, the individual data takes precedence, by default.

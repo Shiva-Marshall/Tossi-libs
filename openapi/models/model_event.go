@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // Event Represents the AF subscribe to event notification of the outcome related to the invocation of AF provisioned service parameters. Possible values are: - SUCCESS_UE_POL_DEL_SP: Successful UE Policy Delivery related to   the invocation of AF provisioned Service Parameters. - UNSUCCESS_UE_POL_DEL_SP: Unsuccessful UE Policy Delivery related to the invocation of AF    provisioned Service Parameters.

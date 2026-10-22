@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/omec-project/openapi/v2/Nnrf_NFDiscovery"
-	"github.com/omec-project/openapi/v2/logger"
-	"github.com/omec-project/openapi/v2/models"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/Nnrf_NFDiscovery"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 const (

@@ -7,7 +7,7 @@ package ngapConvert
 import (
 	"encoding/binary"
 
-	"github.com/omec-project/ngap/v2/ngapType"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/ngapType"
 )
 
 func PortNumberToInt(port ngapType.PortNumber) (portInt32 int32) {

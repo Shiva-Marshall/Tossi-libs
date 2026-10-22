@@ -7,8 +7,8 @@ package ngapConvert
 import (
 	"encoding/hex"
 
-	"github.com/omec-project/ngap/v2/aper"
-	"github.com/omec-project/ngap/v2/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/aper"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/logger"
 )
 
 func AmfIdToNgap(amfId string) (regionId, setId, ptrId aper.BitString) {

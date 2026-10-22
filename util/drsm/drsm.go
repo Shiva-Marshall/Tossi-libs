@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/omec-project/util/logger"
-	MongoDBLibrary "github.com/omec-project/util/mongoapi"
+	"github.com/Shiva-Marshall/Tossi-libs/util/logger"
+	MongoDBLibrary "github.com/Shiva-Marshall/Tossi-libs/util/mongoapi"
 	"go.mongodb.org/mongo-driver/v2/bson"
 )
 

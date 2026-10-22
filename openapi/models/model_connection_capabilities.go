@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ConnectionCapabilities Represents the information provided by a UE application when it requests a network connection with certain capabilities. Possible values are:   - IMS: Indicates the connection capability to support IMS service.   - MMS: Indicates the connection capability to support MMS service.   - SUPL: Indicates the connection capability to support SUPL service.   - INTERNET: Indicates the connection capability to support Internet service.

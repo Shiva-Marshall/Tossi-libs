@@ -8,7 +8,7 @@ package snow3g_test
 import (
 	"testing"
 
-	"github.com/omec-project/nas/v2/security/snow3g"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/security/snow3g"
 )
 
 func Test1(t *testing.T) {

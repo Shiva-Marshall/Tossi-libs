@@ -9,9 +9,9 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/omec-project/nas/v2"
-	"github.com/omec-project/nas/v2/nasMessage"
-	"github.com/omec-project/nas/v2/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/nas"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasMessage"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
 )
 
 func TestGetSecurityModeComplete(t *testing.T) {

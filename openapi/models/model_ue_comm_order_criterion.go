@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // UeCommOrderCriterion Represents the ordering criterion for the list of UE communication analytics. Possible values are:   - START_TIME: The ordering criterion of the analytics is the start time.   - DURATION: The ordering criterion of the analytics is the duration of the communication.

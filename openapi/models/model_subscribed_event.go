@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SubscribedEvent Represents the type of UP path management events for which the AF requests to be notified. Possible values are: - UP_PATH_CHANGE: The AF requests to be notified when the UP path changes for   the PDU session.

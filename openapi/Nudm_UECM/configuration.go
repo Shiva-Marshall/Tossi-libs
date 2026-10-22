@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // contextKeys are used to identify the type of value in the context.

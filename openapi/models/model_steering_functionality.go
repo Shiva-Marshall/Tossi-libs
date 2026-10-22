@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SteeringFunctionality Indicates functionality to support traffic steering, switching and splitting determined by the PCF. Possible values are   - MPTCP: Indicates that PCF authorizes the MPTCP functionality to support traffic   steering, switching and splitting.   - ATSSS_LL: Indicates that PCF authorizes the ATSSS-LL functionality to support traffic   steering, switching and splitting.

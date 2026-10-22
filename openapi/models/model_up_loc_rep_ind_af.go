@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // UpLocRepIndAf Indicates one of the mutually exclusive global settings for location reporting over user plane connectivity to an LCS client or AF.

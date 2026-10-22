@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SummarizationAttribute Represents the attribute in the summarized report. Possible values are: - SPACING: Average and variance of the time interval separating two consecutive occurrences   of the same event and parameter value, or periodicity for periodic reporting. - DURATION: Average and variance of the time for which the parameter value applies. - OCCURRENCES: Number of countable occurrences for the parameter. - AVG_VAR: Average and variance of the parameter. - FREQ_VAL: Most and least frequent values. - MIN_MAX: Maximum and minimum parameter values.

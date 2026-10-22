@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // TransferRequestType Represents the request type for the analytics subscription transfer. Possible values are: - PREPARE: Indicates that the request is for analytics subscription transfer preparation. - TRANSFER: Indicates that the request is for analytics subscription transfer execution.

@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // EventsSubscPutData Identifies the events the application subscribes to within an Events Subscription sub-resource data. It may contain the notification of the already met events.

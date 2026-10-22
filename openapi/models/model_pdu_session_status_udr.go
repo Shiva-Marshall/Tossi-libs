@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // PduSessionStatusUdr Represents the state of the PDU session. Possible values are - \"ACTIVE\": the PDU session is active. - \"RELEASED\": the PDU session released.

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // UplinkDownlinkSupport Represents whether an indication or capability is supported for the UL, the DL or both, UL and DL.

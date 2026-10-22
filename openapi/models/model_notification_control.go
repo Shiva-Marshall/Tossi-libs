@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // NotificationControl The enumeration NotificationControl indicates whether notifications are requested from the RAN when the GFBR can no longer  (or again) be fulfilled for a QoS Flow during the lifetime of the QoS Flow (see clause 5.7.2.4 of 3GPP TS 23.501). It shall comply with the provisions defined in table 5.5.3.5-1.

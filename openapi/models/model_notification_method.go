@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // NotificationMethod Represents the notification methods that can be subscribed. Possible values are: - PERIODIC - ONE_TIME - ON_EVENT_DETECTION

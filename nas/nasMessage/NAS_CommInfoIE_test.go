@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/omec-project/nas/v2/nasMessage"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/nasMessage"
 )
 
 // Every cause TS 24.501 V18.13.0 defines - all 45 of table 9.11.4.2.1, cross-checked against the

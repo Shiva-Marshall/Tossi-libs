@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // NetworkPerfOrderCriterion Represents the ordering criterion for the list of network performance analytics. Possible values are:   - NUMBER_OF_UES: The ordering criterion of the analytics is the number of UEs.   - COMMUNICATION_PERF: The ordering criterion of the analytics is the communication performance.   - MOBILITY_PERF: The ordering criterion of the analytics is themobility performance.

@@ -8,7 +8,7 @@ package nasConvert
 import (
 	"encoding/hex"
 
-	"github.com/omec-project/nas/v2/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/nas/logger"
 )
 
 func PlmnIDToString(nasBuf []byte) string {

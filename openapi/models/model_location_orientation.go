@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // LocationOrientation Possible values are:   - HORIZONTAL: Indicates horizontal orientation.   - VERTICAL: Indicates vertical orientation.   - HOR_AND_VER: Indicates both horizontal and vertical orientation.

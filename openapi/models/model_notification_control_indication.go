@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // NotificationControlIndication Indicates that the notification of DDD Status is requested and/or that the notification of DDN Failure is requested.

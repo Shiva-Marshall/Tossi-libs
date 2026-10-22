@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // UeSubscribedDataSetName All values defined as ProvisionedDataSetName or ContextDataSetName are applicable

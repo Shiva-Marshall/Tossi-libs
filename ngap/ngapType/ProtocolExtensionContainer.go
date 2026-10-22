@@ -9,7 +9,7 @@ From ASN.1 module "NGAP-Containers" found in "38413-i10.asn1"
 
 package ngapType
 
-import "github.com/omec-project/ngap/v2/aper"
+import "github.com/Shiva-Marshall/Tossi-libs/ngap/aper"
 
 type ProtocolExtensionContainerAdditionalDLUPTNLInformationForHOItemExtIEs struct {
 	List []AdditionalDLUPTNLInformationForHOItemExtIEs `aper:"sizeLB:1,sizeUB:65535"`

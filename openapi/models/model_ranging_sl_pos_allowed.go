@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // RangingSlPosAllowed Indicates the Ranging/SL positioning services that can be authorised to use in the given PLMN for the UE.

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ScheduledCommunicationTypeRm This enumeration is defined in the same way as the 'ScheduledCommunicationTypen' enumeration, but with the OpenAPI 'nullable: true' property.\"

@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // AnalyticsAccuracyIndication Represents the notification methods for the subscribed events. Possible values are: - MEET: Indicates meet the analytics accuracy requirement. - NOT_MEET: Indicates not meet the analytics accuracy requirement.

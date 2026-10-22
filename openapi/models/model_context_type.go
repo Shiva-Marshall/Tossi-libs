@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ContextType Represents the analytics context information type. Possible values are: - PENDING_ANALYTICS: Represents context information that relates to pending output   analytics. - HISTORICAL_ANALYTICS: Represents context information that relates to historical output   analytics. - AGGR_SUBS: Represents context information about the analytics subscriptions that an NWDAF   has with other NWDAFs that collectively serve an analytics subscription. - DATA: Represents context information about historical data that is available. - AGGR_INFO: Represents context information that is related to aggregation of analytics   from multiple NWDAF subscriptions. - ML_MODELS: Represents context information about used ML models. - ANALYTICS_ACCU_INFO: Represents the Analytics Accuracy related information. - ML_MODEL_ACCU_INFO: Represents the ML Model accuracy related information.

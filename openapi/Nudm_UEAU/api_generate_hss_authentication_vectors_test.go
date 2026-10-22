@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/omec-project/openapi/v2/models"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 func Test_Nudm_UEAU_GenerateHSSAuthenticationVectorsAPIService(t *testing.T) {

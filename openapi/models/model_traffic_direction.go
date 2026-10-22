@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // TrafficDirection Represents the traffic direction for the resource usage information. Possible values are:   - UL_AND_DL: Uplink and downlink traffic.   - UL: Uplink traffic.   - DL: Downlink traffic.

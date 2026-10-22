@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // FlowDirectionRm This data type is defined in the same way as the \"FlowDirection\" data type, with the only difference that it allows null value.

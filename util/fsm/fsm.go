@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/omec-project/util/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/util/logger"
 )
 
 type (

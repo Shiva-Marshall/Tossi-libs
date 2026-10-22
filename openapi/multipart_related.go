@@ -32,7 +32,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/omec-project/openapi/v2/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/logger"
 )
 
 type MultipartRelatedBinding struct{}

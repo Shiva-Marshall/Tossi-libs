@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // PduSessionContinuityInd It indicates the handling of PDU session when the UE moves in and out of NB-IoT. In its absence, the local policy should be used.

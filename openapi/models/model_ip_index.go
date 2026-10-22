@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // IpIndex Represents the IP Index to be sent from UDM to the SMF (its value can be either an integer or a string)

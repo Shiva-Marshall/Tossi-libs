@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // TransportProtocol Possible values are: - UDP: User Datagram Protocol. - TCP: Transmission Control Protocol.

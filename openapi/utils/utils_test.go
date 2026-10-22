@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	openapi "github.com/omec-project/openapi/v2"
-	"github.com/omec-project/openapi/v2/models"
+	openapi "github.com/Shiva-Marshall/Tossi-libs/openapi"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 func TestProblemDetailsFromOpenAPIErrorHandlesTransportError(t *testing.T) {

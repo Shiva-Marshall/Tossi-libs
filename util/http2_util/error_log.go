@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/omec-project/util/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/util/logger"
 	"go.uber.org/zap"
 )
 

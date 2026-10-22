@@ -27,8 +27,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/omec-project/openapi/v2"
-	"github.com/omec-project/openapi/v2/models"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 type IndividualPDUSessionHSMFOrSMFAPI interface {

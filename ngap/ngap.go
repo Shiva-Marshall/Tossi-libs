@@ -5,8 +5,8 @@
 package ngap
 
 import (
-	"github.com/omec-project/ngap/v2/aper"
-	"github.com/omec-project/ngap/v2/ngapType"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/aper"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/ngapType"
 )
 
 // PPID is the decimal value as specified in TS 38.412.

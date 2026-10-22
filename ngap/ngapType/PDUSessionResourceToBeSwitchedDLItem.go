@@ -10,7 +10,7 @@ From ASN.1 module "NGAP-IEs" found in "38413-i10.asn1"
 package ngapType
 
 import (
-	"github.com/omec-project/ngap/v2/aper"
+	"github.com/Shiva-Marshall/Tossi-libs/ngap/aper"
 )
 
 type PDUSessionResourceToBeSwitchedDLItem struct {

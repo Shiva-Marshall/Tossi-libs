@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // MulticastAccessControl Indicates whether the service data flow, corresponding to the service data flow template, is allowed or not allowed.

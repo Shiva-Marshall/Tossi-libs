@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // ReflectiveQoSAttribute The enumeration ReflectiveQosAttribute indicates whether certain traffic of the QoS flow may be subject to Reflective QoS (see clause 5.7.2.3 of 3GPP TS 23.501). It shall comply with the provisions defined in table 5.5.3.3-1.

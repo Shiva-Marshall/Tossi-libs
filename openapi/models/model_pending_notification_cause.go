@@ -21,7 +21,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // PendingNotificationCause Represents the Pending Notification Cause for the stored unsent data. Possible values are:   - UE_OUT_OF_NF_SERVING_AREA: The UE moved out of the NF serving area.   - OTHER: Other cause.

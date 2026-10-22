@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // QosMonitoringParamType Indicates the QoS monitoring parameter type. Possible values are: - PACKET_DELAY: Indicates that the QoS monitoring parameter to be measured is packet delay. - CONGESTION: Indicates that the QoS monitoring parameter to be measured is congestion. - DATA_RATE: Indicates that the QoS monitoring parameter to be measured is data rate.

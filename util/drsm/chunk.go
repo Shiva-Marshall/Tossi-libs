@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/omec-project/util/logger"
+	"github.com/Shiva-Marshall/Tossi-libs/util/logger"
 	"go.mongodb.org/mongo-driver/v2/bson"
 )
 

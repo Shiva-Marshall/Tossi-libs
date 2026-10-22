@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/omec-project/openapi/v2"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi"
 )
 
 // SmContextType Type of SM Context information. Possible values are   - EPS_PDN_CONNECTION   - SM_CONTEXT   - AF_COORDINATION_INFO

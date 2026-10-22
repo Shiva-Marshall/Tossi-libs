@@ -1,4 +1,4 @@
-module github.com/omec-project/util
+module github.com/Shiva-Marshall/Tossi-libs
 
 go 1.26.0
 
@@ -7,6 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.12.0
 	go.mongodb.org/mongo-driver/v2 v2.9.2
 	go.uber.org/zap v1.28.0
+	golang.org/x/oauth2 v0.37.0
 )
 
 require (
