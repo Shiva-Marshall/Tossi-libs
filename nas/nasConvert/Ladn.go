@@ -5,6 +5,10 @@
 
 package nasConvert
 
+import (
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
+)
+
 // TS 24.501 9.11.3.29 LADN indication: a sequence of length-prefixed DNN values
 func LadnToModels(buf []uint8) (dnnValues []string) {
 	// at most 8 LADN DNN values are considered; remaining octets are ignored
@@ -22,5 +26,18 @@ func LadnToModels(buf []uint8) (dnnValues []string) {
 		bufOffset += 1 + lenOfDnn
 	}
 
+	return
+}
+
+// TS 24.501 9.11.3.30 LADN information: one [DNN][tracking area identity list] entry
+func LadnToNas(dnn string, taiLists []models.Tai) (ladnNas []uint8) {
+	dnnNas := []byte(dnn)
+
+	ladnNas = append(ladnNas, uint8(len(dnnNas)))
+	ladnNas = append(ladnNas, dnnNas...)
+
+	taiListNas := TaiListToNas(taiLists)
+	ladnNas = append(ladnNas, uint8(len(taiListNas)))
+	ladnNas = append(ladnNas, taiListNas...)
 	return
 }

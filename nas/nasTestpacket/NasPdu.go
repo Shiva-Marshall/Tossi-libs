@@ -9,12 +9,14 @@ package nasTestpacket
 import (
 	"bytes"
 	"encoding/base64"
+	"encoding/hex"
 
 	"github.com/Shiva-Marshall/Tossi-libs/nas"
 	"github.com/Shiva-Marshall/Tossi-libs/nas/logger"
 	"github.com/Shiva-Marshall/Tossi-libs/nas/nasConvert"
 	"github.com/Shiva-Marshall/Tossi-libs/nas/nasMessage"
 	"github.com/Shiva-Marshall/Tossi-libs/nas/nasType"
+	"github.com/Shiva-Marshall/Tossi-libs/openapi/models"
 )
 
 const (
@@ -114,7 +116,7 @@ func GetPduSessionEstablishmentRequest(pduSessionId uint8) []byte {
 }
 
 func GetUlNasTransport_PduSessionEstablishmentRequest(pduSessionId uint8, requestType uint8, dnnString string,
-	sNssai *nasType.SNSSAI,
+	sNssai *models.Snssai,
 ) []byte {
 	pduSessionEstablishmentRequest := GetPduSessionEstablishmentRequest(pduSessionId)
 
@@ -141,9 +143,16 @@ func GetUlNasTransport_PduSessionEstablishmentRequest(pduSessionId uint8, reques
 		ulNasTransport.SetDNN(dnn)
 	}
 	if sNssai != nil {
-		snssai := *sNssai
-		snssai.SetIei(nasMessage.ULNASTransportSNSSAIType)
-		ulNasTransport.SNSSAI = &snssai
+		var sdTemp [3]uint8
+		sd, err := hex.DecodeString(sNssai.GetSd())
+		if err != nil {
+			logger.NasMsgLog.Errorf("sNssai decode error: %+v", err)
+		}
+		copy(sdTemp[:], sd)
+		ulNasTransport.SNSSAI = nasType.NewSNSSAI(nasMessage.ULNASTransportSNSSAIType)
+		ulNasTransport.SNSSAI.SetLen(4)
+		ulNasTransport.SetSST(uint8(sNssai.Sst))
+		ulNasTransport.SetSD(sdTemp)
 	}
 
 	ulNasTransport.SetPayloadContainerType(nasMessage.PayloadContainerTypeN1SMInfo)
@@ -406,7 +415,7 @@ func GetUlNasTransport_PduSessionReleaseRequest(pduSessionId uint8) []byte {
 }
 
 func GetUlNasTransport_PduSessionReleaseComplete(pduSessionId uint8, requestType uint8, dnnString string,
-	sNssai *nasType.SNSSAI,
+	sNssai *models.Snssai,
 ) []byte {
 	pduSessionReleaseRequest := GetPduSessionReleaseComplete(pduSessionId)
 
@@ -433,9 +442,16 @@ func GetUlNasTransport_PduSessionReleaseComplete(pduSessionId uint8, requestType
 		ulNasTransport.SetDNN(dnn)
 	}
 	if sNssai != nil {
-		snssai := *sNssai
-		snssai.SetIei(nasMessage.ULNASTransportSNSSAIType)
-		ulNasTransport.SNSSAI = &snssai
+		var sdTemp [3]uint8
+		sd, err := hex.DecodeString(sNssai.GetSd())
+		if err != nil {
+			logger.NasMsgLog.Warnf("sNssai SD decode error: %+v", err)
+		}
+		copy(sdTemp[:], sd)
+		ulNasTransport.SNSSAI = nasType.NewSNSSAI(nasMessage.ULNASTransportSNSSAIType)
+		ulNasTransport.SNSSAI.SetLen(4)
+		ulNasTransport.SetSST(uint8(sNssai.Sst))
+		ulNasTransport.SetSD(sdTemp)
 	}
 
 	ulNasTransport.SetPayloadContainerType(nasMessage.PayloadContainerTypeN1SMInfo)
